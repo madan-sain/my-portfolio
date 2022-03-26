@@ -5,6 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
 }
 
 body {
@@ -179,4 +180,42 @@ h6
 }
 .contact-about i{
   margin-right: 15px;
+}
+.contact-about a:hover
+{
+  color: #eec511;
+}
+.card:hover
+{
+  box-shadow: 10px 10px 10px #111f1d;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  border: #eec511 1px solid;
+
+}
+.card
+{
+  overflow-x:hidden;
+  height:50vh;
+  scroll-behavior: smooth;
+}
+
+.icon 
+{
+ 
+  position: fixed;
+  right: 4%;
+  bottom: 5%;
+  z-index: 1;
+
+
+  height: 10%;
+  border-radius: 50%;
+  text-align: center;
+}
+.icon i
+{
+  color: #eec511;
+  font-size: 70px;
+ 
 }

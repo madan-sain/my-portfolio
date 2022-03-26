@@ -1,10 +1,17 @@
 @media (min-width: 768px){
     .changing-text
     {
-        margin-top: 8rem;
+        margin-top: 12rem;
     }
     .mainimage
     {
         margin-top: 1rem;
     }
+}
+@media (min-width: 460px){
+  
+    .pareap {
+        margin-top: 5rem
+    }
+   
 }
