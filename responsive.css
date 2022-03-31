@@ -23,3 +23,12 @@
         display: none;
     }
 }
+@media (max-width: 362px){
+  
+    .mainimage p 
+    {
+        position: relative;
+        top: 4rem;
+    }
+   
+}
