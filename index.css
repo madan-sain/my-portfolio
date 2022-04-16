@@ -194,8 +194,12 @@ h6 {
 
 .card {
   overflow-x: hidden;
-  height: 50vh;
-  scroll-behavior: smooth;
+  height: 45vh;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  margin: 10px;
+  
 }
 
 .icon {
