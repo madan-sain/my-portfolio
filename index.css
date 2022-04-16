@@ -23,10 +23,8 @@ body {
 
   color: #eec511;
 }
-.navbar{
-  
- 
-}
+
+.navbar {}
 
 
 
@@ -134,75 +132,74 @@ body {
 
 /* css animation is done  */
 
-.mainimage p
-{
-    position: relative;
-    top: 2.5rem;
-    color: #fff;
-    font-size: 20px
+.mainimage p {
+  position: relative;
+  top: 2.5rem;
+  color: #fff;
+  font-size: 20px
 }
-span
-{
+
+span {
   color: #eec511;
 }
-h6
-{
+
+h6 {
   color: #7e7e7e;
 }
-.aboutlist ul li 
-{
+
+.aboutlist ul li {
   list-style: none;
 }
-.aboutlist ul li h6
-{
- 
-  font-size:15px;
+
+.aboutlist ul li h6 {
+
+  font-size: 15px;
 }
-.aboutlist ul li h6:before
-{
+
+.aboutlist ul li h6:before {
   content: '✓';
 }
-.contact-about
-{
+
+.contact-about {
   border: 1px solid gray;
 }
-.contact-about h2
-{
+
+.contact-about h2 {
   color: #fff;
 }
-.contact-about a
-{
+
+.contact-about a {
   text-decoration: none;
   color: #7e7e7e;
   padding: 3px;
   margin-top: 10px;
-  
+
 }
-.contact-about i{
+
+.contact-about i {
   margin-right: 15px;
 }
-.contact-about a:hover
-{
+
+.contact-about a:hover {
   color: #eec511;
 }
-.card:hover
-{
+
+.card:hover {
   box-shadow: 10px 10px 10px #111f1d;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
   border: #eec511 1px solid;
 
 }
-.card
-{
-  overflow-x:hidden;
-  height:50vh;
+
+.card {
+  overflow-x: hidden;
+  height: 50vh;
   scroll-behavior: smooth;
 }
 
-.icon 
-{
- 
+.icon {
+
   position: fixed;
   right: 4%;
   bottom: 5%;
@@ -213,10 +210,80 @@ h6
   border-radius: 50%;
   text-align: center;
 }
-.icon i
-{
+
+.icon i {
   color: #eec511;
   font-size: 70px;
- 
-} 
+
+}
+
 /* css done  */
+.homel-img img {
+  margin-top: 5rem;
+}
+
+
+
+/* progress bar  */
+
+
+#wrapper{
+	position: relative;
+  justify-content: center;
+	display: flex;
+  align-items: center;
+	width: 404px;
+
+}
+.center {
+	left: 50%;
+	-webkit-transform: translate( -50% );
+	-ms-transform: translate( -50% );
+	transform: translate( -50% );
+   
+}
+
+/*===== The CSS =====*/
+.progress{
+	width: 200px;
+	height: 280px;
+  background-color: #05433E;
+ 
+}
+.progress .track, .progress .fill{
+	fill: rgba(0, 0, 0, 0);
+	stroke-width: 3;
+	transform: rotate(90deg) translate(0px, -80px);
+}
+.progress .track{
+	stroke: rgb(56, 71, 83);
+}
+.progress .fill {
+	stroke: rgb(255, 255, 255);
+	stroke-dasharray: 219.99078369140625;
+	stroke-dashoffset: -219.99078369140625;
+	transition: stroke-dashoffset 1s;
+}
+.progress.blue .fill {
+	stroke: rgb(104, 214, 198);
+}
+.progress.green .fill {
+	stroke: rgb(186, 223, 172);
+}
+.progress .value, .progress .text {
+	font-family: 'Open Sans';
+	fill: rgb(255, 255, 255);
+	text-anchor: middle;
+}
+.progress .text {
+	font-size: 12px;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+		cursor: default;
+}
